@@ -1,4 +1,4 @@
 # Projeto-Tela-Login
-### Criando uma tela de login ministrado pelo prof. Gustavo Guanabara
+### Criando uma tela de login ministrado pelo Curso em Vídeo
 
-O objetivo é colocar em prática alguns dos conhecimentos obtidos no módulo 4 do curso de HTML e CSS como formulários, conceito de mobile first, etc.
+É uma tela de login porém os botões não funcionarão porque exigem um conhecimento de JavaScript e o objetivo é apenas colocar em prática alguns dos conhecimentos obtidos no curso de HTML e CSS como formulários, conceito de mobile first, etc.
