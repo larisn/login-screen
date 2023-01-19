@@ -1,2 +1,79 @@
 @charset "UTF-8";
 
+/* Paleta de cores (escuro > claro)
+#038C7F - verde
+#04BFAD - verde
+#591914 - laranja
+#BF4D34 - laranja
+#F29472 - laranja
+*/
+
+
+:root {
+    --cor1: #038C7F;
+    --cor2: #04BFAD;
+    --cor3: #591914;
+    --cor4: #BF4D34;
+    --cor5: #F29472;
+
+    --fonte-padrao: -apple-system, Arial, sans-serif;
+}
+
+* {
+    font-family: var(--fonte-padrao);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body, html {
+    background-color: var(--cor3);
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color:  #f8dcd0;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease; /*suavizada na animação*/
+}
+
+section#login > div#formulario > h1 {
+    text-shadow: 3px 0px 4px #59191441;
+}
+section#login > div#imagem {
+    display: block;
+    background: var(--cor4) url(imagens/light.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: left center;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
